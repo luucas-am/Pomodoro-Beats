@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Modal from '../Modal/Modal'
 import "./Home.css"
 
 function Home() {
+  const [show, setShow] = useState(true);
+
   return (
-    <div>Home</div>
+    <div>
+      <Modal onClose={() => setShow(false)} show={show}/>
+    </div>
   )
 }
 
