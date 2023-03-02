@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Modal from '../Modal/Modal'
 import "./Home.css"
 
 function Home() {
@@ -7,7 +6,7 @@ function Home() {
 
   return (
     <div>
-      <Modal onClose={() => setShow(false)} show={show}/>
+      <h1>Hello World</h1>
     </div>
   )
 }
