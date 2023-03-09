@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
+import Navbar from '../../components/Header/Header'
 import "./Home.css"
 
 function Home() {
-  const [show, setShow] = useState(true);
-
   return (
     <div>
-      <h1>Hello World</h1>
+      <Navbar show={true} />
     </div>
   )
 }
