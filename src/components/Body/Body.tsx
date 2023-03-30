@@ -4,7 +4,7 @@ import React from 'react'
 const Body = () => {
   return (
     <div id='body'>
-        <div className='item il'>
+        <div className='item il noselect'>
             <h1>POMODORO</h1>
             <h2>BEATS</h2>
         </div>

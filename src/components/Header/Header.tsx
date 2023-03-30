@@ -6,7 +6,7 @@ import Settings from '../../assets/img/Settings.png'
 const Navbar = (props: { show: boolean }) => {
   return (
     <div id='header'>
-        <div id='header-l' className='hl'>
+        <div id='header-l' className='hl noselect'>
             <img className='logo' src={Logo} alt="logo" />
         </div>
         { props.show && (
