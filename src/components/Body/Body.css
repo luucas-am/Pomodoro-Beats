@@ -2,11 +2,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 12rem 0;
+    margin: 12rem 0 0 0;
 }
 
 .item {
     padding: 0 7rem;
+    height: 15rem;
 }
 
 .il h1, .il h2 {
@@ -26,11 +27,14 @@
     background-color: transparent;
 }
 
-.ir {
+.ir p{
     font-size: 30px;
 }
+
 .ir .btn{
-    padding: 1rem;
+    position: relative;
+    bottom: 2rem;
+    padding: 0.8rem;
     background-color: #ffffff;
     color: #000000;
     font-size: 24px;
