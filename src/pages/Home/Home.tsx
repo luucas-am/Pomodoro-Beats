@@ -9,7 +9,7 @@ function Home() {
     <div className='container'>
       <Header show={false} />
       <Body />
-      <Footer />
+      <Footer  show={true}/>
     </div>
   )
 }
