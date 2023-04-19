@@ -6,20 +6,15 @@
     margin: 3rem 4rem;
 }
 
-
 .logo {
     width: 8rem;
 }
 
-#header-m {
-    display: flex;
-    position:relative;
-    top: 2.5rem;
-}
 #header-m .item {
     margin: 1rem;
     font-size: 24px;
     font-weight: 900;
+    padding: 0 1.5rem;
 }
 
 #header-m .item :hover {
