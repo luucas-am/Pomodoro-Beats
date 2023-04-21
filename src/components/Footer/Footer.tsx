@@ -12,10 +12,10 @@ const Footer = (props: { show : boolean }) => {
         { props.show && (
           <>
             <div id='footer-m'>
-              <button className='btn-start'><img src={Start} alt="start-icon" /></button>
+              <button className='btn btn-start'><img src={Start} alt="start-icon" /></button>
             </div>
             <div id='footer-r'>
-              <button className='btn-api'><img src={AI} alt="" /></button>
+              <button className='btn btn-api'><img src={AI} alt="" /></button>
             </div>
           </>
         )}

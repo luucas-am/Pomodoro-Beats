@@ -1,3 +1,15 @@
 #footer {
     margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 3rem 3rem;
+}
+
+.btn{
+    border: 0;
+}
+
+.btn:hover{
+    cursor: pointer;
 }
