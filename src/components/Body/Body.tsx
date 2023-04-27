@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Body.css'
 import React from 'react'
 
@@ -10,7 +11,9 @@ const Body = () => {
         </div>
         <div className='item ir'>
             <p>Your favorite songs and pomodoro timer<br/>together in one place.</p>
-            <button className='btn'>Get Started!</button>
+            <Link to='/pomodoro'>
+              <button className='btn'>Get Started!</button>
+            </Link>
         </div>
     </div>
   )
